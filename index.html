@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="grid container">
+        <div class="row container__wrap">
+            <div class="col l-3 player__nav">
+                <div class="player__nav-icon spot-padding">
+                    <div class="paragraph">
+                        <i class="fa-solid fa-house m-right__icon-text"></i>
+                        <p>Home</p>
+                    </div>
+                    <div class="paragraph">
+                        <i class="fa-solid fa-magnifying-glass m-right__icon-text"></i>
+                        <p>Search</p>
+                    </div>
+                </div>
+                <br>
+                <div class="player__nav-library spot-padding">
+                    <div class="nav-library__header">
+                        <div class="nav-library__title">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE library__svg m-right__icon-text" fill="#b3b3b3">
+                                <path d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 
+                                1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                                </path>
+                            </svg>
+                            <h3 class="library__text">
+                                Your Library
+                            </h3>
+                        </div>
+                        <div class="nav-library__icon">
+                            <span>
+                                <i class="fa-solid fa-plus nav-library__icon-1"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-arrow-right nav-library__icon-1"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="nav-library__list m-bottom">
+                        <div class="library__list-item">
+                            Playlists
+                        </div>
+                        <div class="library__list-item">
+                            Artists
+                        </div>
+                    </div>
+                    <div class="nav-library__search m-bottom">
+                        <i class="fa-solid fa-magnifying-glass library__search-icon"></i>
+                        <div class="library__search-recent-list">
+                            <p class="library__search-title">
+                                Recents
+                            </p>
+                            <i class="fa-solid fa-list library__search-bar"></i>
+                        </div>
+                    </div>
+                    <div class="nav-library__playlist-wrap">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- End -->
+
+            <!-- col l-9 -->
+            <div class="col l-9 player__list">
+                <div class="playlist__list-header-wrap">
+                    <div class="player__list-header">
+                        <div class="player__header-icon">
+                            <button class="player__list-header-button"><i class="fa-solid fa-chevron-left player__header-icon-1 "></i></button>
+                            <button class="player__list-header-button player__list-header-button--default"><i class="fa-solid fa-chevron-right player__header-icon-1 player__header-icon-1--default"></i></button>
+                        </div>
+                        <div class="player__header-info">
+                            <button class="btn player__header-btn player__header-info--hover m-right">
+                                Explore Premium
+                            </button>
+                            <a class="btn player__header-link-download player__header-info--hover m-right">
+                                <i class="fa-regular fa-circle-down"></i>
+                                Install App
+                            </a>
+                            <div class="header__icon-notify player__header-info--hover m-right">
+                                <i class="fa-regular fa-bell"></i>
+                            </div>
+                            <div class="header__login-person player__header-info--hover">
+                                <p class="header__login-avatar">s</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist__list-item-wrap">
+
+                </div>
+                <div class="playlist__list-content-wrap">
+
+                </div>
+            </div>
+            <!-- End -->
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>
