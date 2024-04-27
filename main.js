@@ -8,17 +8,17 @@ function playListLeftBar() {
             {
                 img: './assets/img/img_playlist.png',
                 title: 'Liked Songs',
-                quantity: '163 songs'
+                quantity: '163 songs',
             },
             {
                 img: './assets/img/img_playlist1.png',
                 title: 'Liked Songs',
-                quantity: '163 songs'
+                quantity: '163 songs',
             },
             {
                 img: './assets/img/billie.png',
                 title: 'Billie Eilish',
-                quantity: 'Artist'
+                quantity: 'Artist',
             }
         ],
         render: function() {
