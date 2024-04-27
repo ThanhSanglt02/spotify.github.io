@@ -2,6 +2,7 @@
     --primary-color: #fff;
     --sub-color: #b3b3b3;
     --btn-play: #1ed760;
+    --height-sideBar: 400px;
 }
 * {
     padding: 0;
@@ -29,7 +30,10 @@ html {
     background: #000;
 }
 .row.container__wrap {
-    padding: 8px;
+    padding: 10px 10px 0 14px;
+}
+.row .col.player__nav {
+    padding-right: 10px;
 }
 .player__nav {
     z-index: 9999;
@@ -190,13 +194,14 @@ html {
 .playlist__list-header-wrap {
     background-image: linear-gradient(#4f399b, #121212);
     height: 200px;
+    border-radius: 6px;
 }
 .player__list-header {
     display: flex;
     justify-content: space-between;
     padding: 18px 26px;
     position: fixed;
-    width: 1248px;
+    width: calc(100% - var(--height-sideBar));
 }
 .player__list-header-button {
     width: 36px;
@@ -224,6 +229,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-right: 24px;
 }
 .btn {
     border-radius: 30px;
